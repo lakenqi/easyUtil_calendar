@@ -7,6 +7,8 @@
 	border-image: -moz-linear-gradient(#e2d5cd, #fff 50% ,#e2d5cd) 30 30;
 	border-image: linear-gradient(#e2d5cd, #fff 50% ,#e2d5cd) 30 30;
 	box-shadow: 0 0 5px;
+	background-color: #ffffff;
+	overflow: hidden;
 }
 .calendar-container > div{
 	padding: 5px 10px;
@@ -47,4 +49,93 @@
 .out-day {
 	color: rgba(0, 0, 0, 0.5);
 	opacity: 0.4;
+}
+
+.drop-right{
+	-webkit-transform-origin: 0% 0%;
+	-moz-transform-origin: 0% 0%;
+	-ms-transform-origin: 0% 0%;
+	-o-transform-origin: 0% 0%;
+	transform-origin: 0% 0%;
+	-webkit-animation: roll-right .5s infinite ease-in-out ;
+	-moz-animation: roll-right .5s infinite ease-in-out ;
+	-o-animation: roll-right .5s infinite ease-in-out ;
+	animation: roll-right .5s infinite ease-in-out ;
+}
+.drop-left{
+	-webkit-transform-origin: 100% 100%;
+	-moz-transform-origin: 100% 100%;
+	-ms-transform-origin: 100% 100%;
+	-o-transform-origin: 100% 100%;
+	transform-origin: 100% 100%;
+	-webkit-animation: roll-left .5s infinite ease-in-out ;
+	-moz-animation: roll-left .5s infinite ease-in-out ;
+	-o-animation: roll-left .5s infinite ease-in-out ;
+	animation: roll-left .5s infinite ease-in-out ;
+}
+.drop-center{
+	-webkit-transform-origin: 0% 0%;
+	-moz-transform-origin: 0% 0%;
+	-ms-transform-origin: 0% 0%;
+	-o-transform-origin: 0% 0%;
+	transform-origin: 0% 0%;
+	-webkit-animation: roll-center .5s infinite ease-in-out ;
+	-moz-animation: roll-center .5s infinite ease-in-out ;
+	-o-animation: roll-center .5s infinite ease-in-out ;
+	animation: roll-center .5s infinite ease-in-out ;
+}
+
+@keyframes roll-right{
+	from{
+		opacity: 1;
+		-webkit-transform:rotateY(0deg) ;
+		-moz-transform:rotateY(0deg) ;
+		-ms-transform:rotateY(0deg) ;
+		-o-transform:rotateY(0deg) ;
+		transform:rotateY(0deg) ;
+		}
+	to{
+		opacity: 0;
+		-webkit-transform:rotateY(-90deg) ;
+		-moz-transform:rotateY(-90deg) ;
+		-ms-transform:rotateY(-90deg) ;
+		-o-transform:rotateY(-90deg) ;
+		transform:rotateY(-90deg) ;
+		}
+}
+@keyframes roll-left{
+	from{
+		opacity: 1;
+		-webkit-transform:rotateY(-90deg) ;
+		-moz-transform:rotateY(-90deg) ;
+		-ms-transform:rotateY(-90deg) ;
+		-o-transform:rotateY(-90deg) ;
+		transform:rotateY(-90deg) ;
+		}
+	to{
+		opacity: 0;
+		-webkit-transform:rotateY(0deg) ;
+		-moz-transform:rotateY(0deg) ;
+		-ms-transform:rotateY(0deg) ;
+		-o-transform:rotateY(0deg) ;
+		transform:rotateY(0deg) ;
+		}
+}
+@keyframes roll-center{
+	from{
+		opacity: 1;
+		-webkit-transform:rotateX(0deg) ;
+		-moz-transform:rotateX(0deg) ;
+		-ms-transform:rotateX(0deg) ;
+		-o-transform:rotateX(0deg) ;
+		transform:rotateX(0deg) ;
+		}
+	to{
+		opacity: 0;
+		-webkit-transform:rotateX(-90deg) ;
+		-moz-transform:rotateX(-90deg) ;
+		-ms-transform:rotateX(-90deg) ;
+		-o-transform:rotateX(-90deg) ;
+		transform:rotateX(-90deg) ;
+		}
 }
