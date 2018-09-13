@@ -7,13 +7,15 @@
 	border-image: -moz-linear-gradient(#e2d5cd, #fff 50% ,#e2d5cd) 30 30;
 	border-image: linear-gradient(#e2d5cd, #fff 50% ,#e2d5cd) 30 30;
 	box-shadow: 0 0 5px;
+	overflow: hidden;
+	width: 240px;
 }
 .calendar-container > div{
 	padding: 5px 10px;
 	font-weight: bolder;
 }
 .display-part{
-	background-color: #c40001;
+	background-color: #b10000;
 	color: #FFFFFF;
 	letter-spacing: 5px;
 }
@@ -27,9 +29,6 @@
 	cursor: pointer;
 	padding: 0px 15px;
 }
-.calendar-container table{
-	padding: 5px 10px;
-}
 .calendar-container table td{
 	padding: 5px;
 }
@@ -37,7 +36,7 @@
 	font-weight: bolder;
 }
 .calendar-container table td:first-child,.calendar-container table td:last-child{
-	color: red;
+	color: #b10000;
 }
 .today-part{
 	background-color: rgba(0,0,0,0.3);
