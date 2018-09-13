@@ -1,5 +1,5 @@
 @charset "utf-8";
-.calender-container {
+.calendar-container {
 	display: inline-block;
 	text-align: center;
 	border: 10px solid #e2d5cd;
@@ -8,7 +8,7 @@
 	border-image: linear-gradient(#e2d5cd, #fff 50% ,#e2d5cd) 30 30;
 	box-shadow: 0 0 5px;
 }
-.calender-container > div{
+.calendar-container > div{
 	padding: 5px 10px;
 	font-weight: bolder;
 }
@@ -27,16 +27,16 @@
 	cursor: pointer;
 	padding: 0px 15px;
 }
-.calender-container table{
+.calendar-container table{
 	padding: 5px 10px;
 }
-.calender-container table td{
+.calendar-container table td{
 	padding: 5px;
 }
-.calender-container table thead{
+.calendar-container table thead{
 	font-weight: bolder;
 }
-.calender-container table td:first-child,.calender-container table td:last-child{
+.calendar-container table td:first-child,.calendar-container table td:last-child{
 	color: red;
 }
 .today-part{
