@@ -7,12 +7,13 @@
 	border-image: -moz-linear-gradient(#e2d5cd, #fff 50% ,#e2d5cd) 30 30;
 	border-image: linear-gradient(#e2d5cd, #fff 50% ,#e2d5cd) 30 30;
 	box-shadow: 0 0 5px;
-	overflow: hidden;
-	width: 240px;
 }
 .calendar-container > div{
 	padding: 5px 10px;
 	font-weight: bolder;
+}
+.calendar-container > table{
+	padding: 5px 10px;
 }
 .display-part{
 	background-color: #b10000;
