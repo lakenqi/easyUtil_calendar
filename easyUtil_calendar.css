@@ -55,33 +55,33 @@
 }
 
 .drop-right{
-	-webkit-transform-origin: 0% 0%;
-	-moz-transform-origin: 0% 0%;
-	-ms-transform-origin: 0% 0%;
-	-o-transform-origin: 0% 0%;
-	transform-origin: 0% 0%;
+	-webkit-transform-origin: right top;
+	-moz-transform-origin: right top;
+	-ms-transform-origin: right top;
+	-o-transform-origin: right top;
+	transform-origin: right top;
 	-webkit-animation: roll-right .5s 1 ease-in-out ;
 	-moz-animation: roll-right .5s 1 ease-in-out ;
 	-o-animation: roll-right .5s 1 ease-in-out ;
 	animation: roll-right .5s 1 ease-in-out ;
 }
 .drop-left{
-	-webkit-transform-origin: 0% 0%;
-	-moz-transform-origin: 0% 0%;
-	-ms-transform-origin: 0% 0%;
-	-o-transform-origin: 0% 0%;
-	transform-origin: 0% 0%;
+	-webkit-transform-origin: right top;
+	-moz-transform-origin: right top;
+	-ms-transform-origin: right top;
+	-o-transform-origin: right top;
+	transform-origin: right top;
 	-webkit-animation: roll-left .5s 1 ease-in-out;
 	-moz-animation: roll-left .5s 1 ease-in-out ;
 	-o-animation: roll-left .5s 1 ease-in-out ;
 	animation: roll-left .5s 1 ease-in-out ;
 }
 .drop-center{
-	-webkit-transform-origin: 0% 0%;
-	-moz-transform-origin: 0% 0%;
-	-ms-transform-origin: 0% 0%;
-	-o-transform-origin: 0% 0%;
-	transform-origin: 0% 0%;
+	-webkit-transform-origin: right bottom;
+	-moz-transform-origin: right bottom;
+	-ms-transform-origin: right bottom;
+	-o-transform-origin: right bottom;
+	transform-origin: right bottom;
 	-webkit-animation: roll-center .5s 1 ease-in-out ;
 	-moz-animation: roll-center .5s 1 ease-in-out ;
 	-o-animation: roll-center .5s 1 ease-in-out ;
@@ -91,37 +91,37 @@
 @keyframes roll-right{
 	from{
 		opacity: 1;
-		-webkit-transform:rotateY(0deg) ;
-		-moz-transform:rotateY(0deg) ;
-		-ms-transform:rotateY(0deg) ;
-		-o-transform:rotateY(0deg) ;
-		transform:rotateY(0deg) ;
+		-webkit-transform:rotate(0deg) ;
+		-moz-transform:rotate(0deg) ;
+		-ms-transform:rotate(0deg) ;
+		-o-transform:rotate(0deg) ;
+		transform:rotate(0deg) ;
 		}
 	to{
 		opacity: 0;
-		-webkit-transform:rotateY(-90deg) ;
-		-moz-transform:rotateY(-90deg) ;
-		-ms-transform:rotateY(-90deg) ;
-		-o-transform:rotateY(-90deg) ;
-		transform:rotateY(-90deg) ;
+		-webkit-transform:rotate(90deg) ;
+		-moz-transform:rotate(90deg) ;
+		-ms-transform:rotate(90deg) ;
+		-o-transform:rotate(90deg) ;
+		transform:rotate(90deg) ;
 		}
 }
 @keyframes roll-left{
 	from{
 		opacity: 0;
-		-webkit-transform:rotateY(-90deg) ;
-		-moz-transform:rotateY(-90deg) ;
-		-ms-transform:rotateY(-90deg) ;
-		-o-transform:rotateY(-90deg) ;
-		transform:rotateY(-90deg) ;
+		-webkit-transform:rotate(90deg) ;
+		-moz-transform:rotate(90deg) ;
+		-ms-transform:rotate(90deg) ;
+		-o-transform:rotate(90deg) ;
+		transform:rotate(90deg) ;
 		}
 	to{
 		opacity: 1;
-		-webkit-transform:rotateY(0deg) ;
-		-moz-transform:rotateY(0deg) ;
-		-ms-transform:rotateY(0deg) ;
-		-o-transform:rotateY(0deg) ;
-		transform:rotateY(0deg) ;
+		-webkit-transform:rotate(0deg) ;
+		-moz-transform:rotate(0deg) ;
+		-ms-transform:rotate(0deg) ;
+		-o-transform:rotate(0deg) ;
+		transform:rotate(0deg) ;
 		}
 }
 @keyframes roll-center{
