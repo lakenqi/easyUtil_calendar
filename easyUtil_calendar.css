@@ -60,21 +60,21 @@
 	-ms-transform-origin: 0% 0%;
 	-o-transform-origin: 0% 0%;
 	transform-origin: 0% 0%;
-	-webkit-animation: roll-right .5s infinite ease-in-out ;
-	-moz-animation: roll-right .5s infinite ease-in-out ;
-	-o-animation: roll-right .5s infinite ease-in-out ;
-	animation: roll-right .5s infinite ease-in-out ;
+	-webkit-animation: roll-right .5s 1 ease-in-out ;
+	-moz-animation: roll-right .5s 1 ease-in-out ;
+	-o-animation: roll-right .5s 1 ease-in-out ;
+	animation: roll-right .5s 1 ease-in-out ;
 }
 .drop-left{
-	-webkit-transform-origin: 100% 100%;
-	-moz-transform-origin: 100% 100%;
-	-ms-transform-origin: 100% 100%;
-	-o-transform-origin: 100% 100%;
-	transform-origin: 100% 100%;
-	-webkit-animation: roll-left .5s infinite ease-in-out ;
-	-moz-animation: roll-left .5s infinite ease-in-out ;
-	-o-animation: roll-left .5s infinite ease-in-out ;
-	animation: roll-left .5s infinite ease-in-out ;
+	-webkit-transform-origin: 0% 0%;
+	-moz-transform-origin: 0% 0%;
+	-ms-transform-origin: 0% 0%;
+	-o-transform-origin: 0% 0%;
+	transform-origin: 0% 0%;
+	-webkit-animation: roll-left .5s 1 ease-in-out;
+	-moz-animation: roll-left .5s 1 ease-in-out ;
+	-o-animation: roll-left .5s 1 ease-in-out ;
+	animation: roll-left .5s 1 ease-in-out ;
 }
 .drop-center{
 	-webkit-transform-origin: 0% 0%;
@@ -82,10 +82,10 @@
 	-ms-transform-origin: 0% 0%;
 	-o-transform-origin: 0% 0%;
 	transform-origin: 0% 0%;
-	-webkit-animation: roll-center .5s infinite ease-in-out ;
-	-moz-animation: roll-center .5s infinite ease-in-out ;
-	-o-animation: roll-center .5s infinite ease-in-out ;
-	animation: roll-center .5s infinite ease-in-out ;
+	-webkit-animation: roll-center .5s 1 ease-in-out ;
+	-moz-animation: roll-center .5s 1 ease-in-out ;
+	-o-animation: roll-center .5s 1 ease-in-out ;
+	animation: roll-center .5s 1 ease-in-out ;
 }
 
 @keyframes roll-right{
@@ -108,7 +108,7 @@
 }
 @keyframes roll-left{
 	from{
-		opacity: 1;
+		opacity: 0;
 		-webkit-transform:rotateY(-90deg) ;
 		-moz-transform:rotateY(-90deg) ;
 		-ms-transform:rotateY(-90deg) ;
@@ -116,7 +116,7 @@
 		transform:rotateY(-90deg) ;
 		}
 	to{
-		opacity: 0;
+		opacity: 1;
 		-webkit-transform:rotateY(0deg) ;
 		-moz-transform:rotateY(0deg) ;
 		-ms-transform:rotateY(0deg) ;
