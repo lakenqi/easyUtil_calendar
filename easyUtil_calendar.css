@@ -32,6 +32,9 @@
 	cursor: pointer;
 	padding: 0px 15px;
 }
+.btn-part:hover{
+	text-shadow: 0 0 1px;
+}
 .calendar-container table td{
 	padding: 5px;
 }
