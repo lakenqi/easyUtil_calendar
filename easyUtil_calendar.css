@@ -89,7 +89,7 @@
 }
 
 @keyframes roll-right{
-	from{
+	0%{
 		opacity: 1;
 		-webkit-transform:rotate(0deg) ;
 		-moz-transform:rotate(0deg) ;
@@ -97,13 +97,13 @@
 		-o-transform:rotate(0deg) ;
 		transform:rotate(0deg) ;
 		}
-	to{
+	100%{
 		opacity: 0;
-		-webkit-transform:rotate(90deg) ;
-		-moz-transform:rotate(90deg) ;
-		-ms-transform:rotate(90deg) ;
-		-o-transform:rotate(90deg) ;
-		transform:rotate(90deg) ;
+		-webkit-transform:rotate(-90deg) ;
+		-moz-transform:rotate(-90deg) ;
+		-ms-transform:rotate(-90deg) ;
+		-o-transform:rotate(-90deg) ;
+		transform:rotate(-90deg) ;
 		}
 }
 @keyframes roll-left{
